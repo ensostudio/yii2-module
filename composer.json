@@ -37,7 +37,7 @@
         "yii\\composer\\Installer::postCreateProject": {
             "setPermission": [
                 {
-                    "runtime": "0755",
+                    "runtime": "0755"
                 }
             ]
         }
