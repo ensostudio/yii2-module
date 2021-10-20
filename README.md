@@ -2,13 +2,12 @@
 
 ## Directory Structure
 
- - `assets/`  assets definition: JS, CSS, fonts and etc.
- - `src/`     PHP classes: controllers, models and etc.
- - `config/`  contains module configurations
- - `runtime/` files generated during runtime
- - `tests/`   unit tests for module classes
- - `vendor/`  dependent 3rd-party packages (Composer)
- - `views/`   templates
+ - `asset/`    assets definition: JS, CSS, fonts and etc.
+ - `src/`      PHP classes: controllers, models and etc.
+ - `tests/`    unit tests for module classes
+ - `messages/` message translations (I18N)
+ - `vendor/`   dependent 3rd-party packages (Composer)
+ - `views/`    templates
  
 ## Installation
 
