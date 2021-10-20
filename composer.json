@@ -2,7 +2,7 @@
     "name": "ensostudio/yii2-module",
     "type": "yii2-extension",
     "description": "Template of Yii 2 module",
-    "keywords": ["yii2", "module", "template"],
+    "keywords": ["yii2", "module"],
     "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/ensostudio/yii2-module/issues?state=open",
