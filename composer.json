@@ -1,0 +1,45 @@
+{
+    "name": "ensostudio/yii2-module",
+    "type": "yii2-extension",
+    "description": "Template of Yii 2 module",
+    "keywords": ["yii2", "module", "template"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/ensostudio/yii2-module/issues?state=open",
+        "wiki": "https://github.com/ensostudio/yii2-module/wiki",
+        "source": "https://github.com/ensostudio/yii2-module/blob/master"
+    },
+    "authors": [
+        {
+            "name": "Enso studio",
+            "email": "info@ensostudio.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2": "^2.0",
+        "phpunit/phpunit": ">=7.0",
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\modules\\template\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "app\\modules\\template\\": "tests/"
+        }
+    },
+    "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+            "setPermission": [
+                {
+                    "runtime": "0755",
+                }
+            ]
+        }
+    }
+}

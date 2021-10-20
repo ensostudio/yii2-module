@@ -1,0 +1,21 @@
+# IDE project files
+/.idea/
+/.buildpath/
+/.project/
+/.settings/
+/nbproject/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Composer 3rd-party packages
+/vendor/*
+/runtime/*
+
+# Tool's cache and templorary files
+/*.lock
+/*.cache
+/*.tmp
+/*.temp
+/*.phar
